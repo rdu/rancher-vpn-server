@@ -13,7 +13,7 @@ RUN grep ClientAliveInterval /etc/ssh/sshd_config >/dev/null 2>&1 || echo "Clien
 
 ENV VPN_PATH /etc/openvpn
 ENV VPN_PASSWORD **ChangeMe**
-ENV ROUTED_NETWORK_CIDR 10.42.0.0
+ENV ROUTED_NETWORK_CIDR 192.168.0.0
 ENV ROUTED_NETWORK_MASK 255.255.0.0
 ENV DEBUG 0
 
